@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "RUNSERVER",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/deportes/manage.py",
+            "args": [
+                "runserver"
+            ],
+            "env": {
+                "PYTHONUNBUFFERED": "1"
+            },
+            "django": true,
+            "justMyCode": true
+        }
+    ]
+}
